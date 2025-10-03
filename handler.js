@@ -691,7 +691,7 @@ global.dfail = async (type, m, conn) => {
     return await conn.sendMessage(
       m.chat,
       {
-        text: '❌ Kamu belum terdaftar di database bot!\n\nSilakan daftar terlebih dahulu:',
+        text: 'ꜱɪʟᴀʜᴋᴀɴ ᴅᴀꜰᴛᴀʀ ᴋᴇ ᴅᴀᴛᴀʙᴀꜱᴇ ʙᴏᴛ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ, ᴊɪᴋᴀ ɪɴɢɪɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ\n\n*ᴍᴀɴᴜᴀʟ*: .ᴅᴀꜰᴛᴀʀ ɴᴀᴍᴀ.ᴜᴍᴜʀ\n*ᴏᴛᴏᴍᴀᴛɪꜱ*: @ᴠᴇʀɪꜰʏ',
         footer: 'Inori Multidevice!',
         buttons: [
           {
