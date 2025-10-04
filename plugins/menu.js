@@ -187,7 +187,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command }) => {
 }, { messageId: m.key.id });
 
 await conn.sendMessage(m.chat, {
-  document: fs.readFileSync('./README.md'),
+  document: await promises.readFile('./README.md'),
   mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
   fileName: 'Inori Yuzuriha',
   fileLength: 271000000000000,
