@@ -108,8 +108,6 @@ export async function handler(chatUpdate) {
 					chat.teks = false
 				if (!('autolevelup' in chat))
 					chat.autolevelup = false
-                if (!isNumber(user.level))
-                    user.level = 0
 				if (!isNumber(chat.expired))
                     chat.expired = 0
                 if (!("memgc" in chat)) chat.memgc = {}
