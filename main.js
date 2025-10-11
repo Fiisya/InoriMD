@@ -134,7 +134,7 @@ conn.isInit = false
 if (!conn.authState.creds.registered) {
   console.log(chalk.bgWhite(chalk.blue('Generating code...')))
   setTimeout(async () => {
-    let code = await conn.requestPairingCode(global.pairing)
+    let code = await conn.requestPairingCode(global.pairing, "ALFIXXXX")
     code = code?.match(/.{1,4}/g)?.join('-') || code
     console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)))
   }, 3000)
