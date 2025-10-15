@@ -41,7 +41,7 @@
         "@bochilteam/scraper": "^5.0.1",
         "@google/generative-ai": "^0.24.1",
         "@vitalets/google-translate-api": "^9.2.0",
-        "@whiskeysockets/baileys": "npm:@rexxhayanasi/elaina-bail@latest",
+        "@whiskeysockets/baileys": "npm:@varshade/baileys-lite@latest",
         "awesome-phonenumber": "^3.4.0",
         "axios": "^1.4.0",
         "cfonts": "^2.10.0",
